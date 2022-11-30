@@ -10,7 +10,7 @@ botaoCadastro.addEventListener('click', function (e) {
         numero: $('numero').val(),
         bairro: $('bairro').val(),
         cidade: $('cidade').val(),
-        uf: $('#uf').val()
+        uf: $('#uf').val(),
 
     }
     fetch('https://api-aluno.meuapp.net.br/api/eventos', {
